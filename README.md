@@ -33,6 +33,8 @@ Recovered IOCTL Constraints
 ### Fix the finding method of Recovering OutputBufferLength & InputBufferLength Constraints
 When OutputBufferLength < 8, it is invalid constraints but IREC have mistake analyze it.
 ![](/screenshots/Implements1.png) 
+
+
 Sys-Extracter
 ```shell
     {   'InBufferLength': ['0-inf'],
