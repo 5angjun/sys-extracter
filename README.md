@@ -1,7 +1,7 @@
 # Sys-Extracter
 This is the cross platform framework to recover driver's dispatch routine and all constraints for valid IOCTL codes.
 
-It based on [IREC] (https://github.com/kirasys/irec) and improve the IREC's limitations.
+It based on [IREC](https://github.com/kirasys/irec) and improve the IREC's limitations.
 
 ## Installation & Getting Start
 ```shell
@@ -20,10 +20,11 @@ python3 sys-extracter.py -driver target_driver.sys
 
 ## Example Result
 Dispatch Routine
-
+![](/screenshots/result1.png)   
 
 Recovered IOCTL Constraints
-
+![](/screenshots/result1.png)  
+![](/screenshots/result2.png)  
 
 ## Implements of IREC
 ### Recovering IOCTL as well as other dispatch routine
